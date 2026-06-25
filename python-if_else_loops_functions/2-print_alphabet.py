@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for i in range(26):
-    print(chr(97 + i), end="")
+for code in range(97, 123):
+    if code != 101 and code != 113:
+        print("{}".format(chr(code)), end="")
